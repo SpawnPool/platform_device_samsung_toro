@@ -16,6 +16,10 @@
 TARGET_BOARD_INFO_FILE := device/samsung/toro/board-info.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/toro/bluetooth
 
+# Toolchain
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.9
+TARGET_GCC_VERSION_AND := 4.8
+
 # Use the non-open-source part, if present
 -include vendor/samsung/toro/BoardConfigVendor.mk
 

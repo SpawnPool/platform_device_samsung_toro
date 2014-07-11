@@ -14,6 +14,7 @@
 
 # Default values, possibly overridden by BoardConfigVendor.mk
 TARGET_BOARD_INFO_FILE := device/samsung/toro/board-info.txt
+AUDIO_FEATURE_DISABLED_DS1_DOLBY_DDP := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/toro/bluetooth
 
 # Toolchain

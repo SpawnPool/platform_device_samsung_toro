@@ -17,7 +17,10 @@ persist.radio.imsallowmtsms=1
 ro.ril.ecclist=112,911,#911,*911
 
 # Default to LTE/CDMA Network Mode
-ro.telephony.default_network=7
+ro.telephony.default_network=8
 
 # GPU producer to CPU consumer not supported
 ro.bq.gpu_to_cpu_unsupported=1
+
+# Set default cdma subscription to RUIM in database
+ro.telephony.default_cdma_sub=0
